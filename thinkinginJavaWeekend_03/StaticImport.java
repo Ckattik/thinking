@@ -11,7 +11,7 @@ public class StaticImport {
 		out.println("Hello");
 		System.out.println();
 		System.out.println("Not static Hello");
-		
+		System.out.println();
 
 	}
 
