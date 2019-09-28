@@ -25,6 +25,7 @@ public class TestConsTwo {
 	
 	public static void main(String [] args) {
 		TestConsTwo testConsTwo = new TestConsTwo(15, "s");
+
 	}
 	
 	
