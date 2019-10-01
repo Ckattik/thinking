@@ -21,6 +21,10 @@ public class SprinklerSystem {
 		SprinklerSystem sprinklerSystem = new SprinklerSystem();
 		System.out.println(sprinklerSystem);
 		
+		
+		Person p1 = new Person();
+		System.out.println(p1);
+		
 	}
 	
 	
