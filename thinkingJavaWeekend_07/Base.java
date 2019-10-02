@@ -1,11 +1,10 @@
 package thinkingJavaWeekend_07;
 
-public class A {
+public class Base {
 
-	public A(int i) {
+	public Base(int i) {
 		// TODO Auto-generated constructor stub
-	
-		System.out.println("Конструктор A()");	
+		System.out.println("Base()");
 	
 	}
 	
