@@ -7,4 +7,8 @@ public class Component3 {
         	   System.out.println("Component3()");
            
            }
+           
+           public void dispose() {
+       		System.out.println("Удаляем компонент3");
+       	}
 }

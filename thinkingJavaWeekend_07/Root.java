@@ -11,5 +11,12 @@ public class Root {
 		System.out.println();
 	}
 	
+	public void dispose() {
+		
+		c3.dispose();
+		c2.dispose();
+		c1.dispose();
+		System.out.println("Удаляем компонент");
+	}
 	
 }
