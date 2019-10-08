@@ -23,14 +23,7 @@ public class Cleanser {
 		return s;
 	}
 	
-	public static void main (String [] args) {
-		Cleanser x = new Cleanser();
-	    x.dilute();
-	    x.applay();
-	    x.scrub();
-	    System.out.println(x);
-	
-	}
+
 	
 	
 }

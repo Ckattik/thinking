@@ -1,17 +1,34 @@
 package thinkingJavaWeekend_07;
 
-public class Detergent extends Cleanser{
+public class Detergent {
 
-	
+	private Cleanser cs = new Cleanser();
 	
 	//изменяем метод scrub
-	public void scrub() {
-		append("  Detergent.scrub() ");
-	    super.scrub();
+	
+	
+	public void dilute() {
+		cs.dilute();
 	}
+	
+	
+	public void applay() {
+		cs.applay();
+	}
+	
+	
+	
+	public void scrub() {
+		
+	    cs.scrub();
+	}
+	
+	
+
+	
 	// добавляем новый метод к интерфейсу
 	public void foam() {
-		append(" foam()");
+		
 	}
 	
 	public static void main(String [] args) {
@@ -22,8 +39,8 @@ public class Detergent extends Cleanser{
 		x.foam();
 	
 		System.out.println(x);
-		System.out.println("Проверяем базовый класс");
-		Cleanser.main(args);
+	//	System.out.println("Проверяем базовый класс");
+	//		Cleanser.main(args);
 		
 	}
 	
