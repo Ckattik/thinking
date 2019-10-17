@@ -22,6 +22,10 @@ public class Beetle extends Insect{
 		
 		Ckatt.outConsole("Конструктор Beetle");
 		Beetle b = new Beetle();
+		System.out.println();
+		Beetle b1 = new Beetle();
+		System.out.println("^^^^^^^^^^^^^^");
+		Term t = new Term();
 		
 		
 	}
