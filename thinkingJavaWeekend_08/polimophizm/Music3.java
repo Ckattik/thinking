@@ -38,7 +38,7 @@ public static void tuneAll(Instrument [] e) {
 	
 		Ckatt.outConsole("^^^^^^^^^^^^");
 		
-		Instrument s [] = new Instrument[15];
+		Instrument s [] = new Instrument[5];
 		// Заполняем масив фигурами
 		for(int i = 0; i < s.length; i++) {
 			s[i] = gen.next();
@@ -48,9 +48,10 @@ public static void tuneAll(Instrument [] e) {
 		// Полиморфные вызовы методов:
 		for(Instrument inst : s) {
 			inst.play(Note.B_FLAT);
-			inst.what();
-			inst.adjust();
 			
+			inst.adjust();
+
+			inst.what();
 		}
 
 		

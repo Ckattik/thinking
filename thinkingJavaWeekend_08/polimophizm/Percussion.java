@@ -13,6 +13,7 @@ public class Percussion extends Instrument {
 	}
 	
 	public String what() {
+		Ckatt.outConsole("Precussion.what()");
 		return "Percussion";
 	}
 	

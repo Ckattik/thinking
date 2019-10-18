@@ -13,6 +13,7 @@ public class Woodwind extends Wind {
 	}
 	
 	public String what() {
+		Ckatt.outConsole("Woodwind.what()");
 		return "Woodwind";
 	}
 	

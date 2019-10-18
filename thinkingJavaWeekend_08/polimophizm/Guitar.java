@@ -13,6 +13,7 @@ public class Guitar extends Instrument {
 	}
 	
 	public String what() {
+		Ckatt.outConsole("Gutitar.what()");
 		return "Guitar";
 	}
 	

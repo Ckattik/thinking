@@ -13,6 +13,8 @@ public class Wind extends Instrument{
 	}
 	
 	public String what() {
+		Ckatt.outConsole("Wind.what()");
+		
 		return "Wind";
 	}
 	

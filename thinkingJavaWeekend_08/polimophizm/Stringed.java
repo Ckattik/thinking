@@ -13,7 +13,11 @@ public class Stringed extends Instrument {
 	}
 	
 	public String what() {
+		
+		Ckatt.outConsole("Stringed.what()");
+		
 		return "Stringed";
+				
 	}
 	
 	public void adjust() {
