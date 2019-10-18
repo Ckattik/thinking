@@ -11,5 +11,14 @@ public class Stringed extends Instrument {
 	public void play(Note n) {
 		Ckatt.outConsole("Stringed.play()" + n);
 	}
+	
+	public String what() {
+		return "Stringed";
+	}
+	
+	public void adjust() {
+		Ckatt.outConsole("Adjusting Stringed");
+	}
+
 
 }

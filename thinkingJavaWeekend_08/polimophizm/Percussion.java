@@ -2,22 +2,23 @@ package thinkingJavaWeekend_08.polimophizm;
 
 import myClass.Ckatt;
 
-public class Wind extends Instrument{
+public class Percussion extends Instrument {
 
-	public Wind() {
+	public Percussion() {
 		// TODO Auto-generated constructor stub
 	}
 
 	public void play(Note n) {
-		Ckatt.outConsole("Wind.play() " + n);
+		Ckatt.outConsole("Percussion.play() " + n);
 	}
 	
 	public String what() {
-		return "Wind";
+		return "Percussion";
 	}
 	
 	public void adjust() {
-		Ckatt.outConsole("Adjusting Wind");
+		Ckatt.outConsole("Adjusting Percussion");
 	}
+	
 	
 }

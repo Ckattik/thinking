@@ -13,4 +13,13 @@ public class Instrument {
 		Ckatt.outConsole("Instrument.play()");
 	}
 	
+	public String what() {
+		
+		return "Instrument";
+	}
+
+	public void adjust() {
+		Ckatt.outConsole("Addjusting Instrument");
+	}
+	
 }
