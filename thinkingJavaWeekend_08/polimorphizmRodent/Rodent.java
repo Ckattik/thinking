@@ -14,11 +14,11 @@ public class Rodent {
 	}
 	
 	public void run() {
-	//	Ckatt.outConsole("Rodent.run()");
+		Ckatt.outConsole("Rodent.run()");
 	}
 	
 	public void jump() {
-	//	Ckatt.outConsole("Rodent.jump()");
+		Ckatt.outConsole("Rodent.jump()");
 	}
 	
 	
