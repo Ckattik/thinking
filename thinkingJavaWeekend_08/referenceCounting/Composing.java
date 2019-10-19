@@ -20,12 +20,17 @@ public class Composing {
 	}
 	
 	public void dispose() {
+		finalize();
 		Ckatt.outConsole("Disposing " + this);
 		shared.dispose();
 	}
 	
 	public String toString() {
 		return "Composing " + id;
+	}
+	
+	public void finalize() {
+		Ckatt.outConsole("Composing finalize");
 	}
 
 }

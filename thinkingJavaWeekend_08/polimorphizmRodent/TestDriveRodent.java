@@ -11,7 +11,7 @@ public class TestDriveRodent {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Rodent s[] = new Rodent[2];
+		Rodent s[] = new Rodent[4];
 		// Заполняем масив фигурами
 		for (int i = 0; i < s.length; i++) {
 			s[i] = gen.next();

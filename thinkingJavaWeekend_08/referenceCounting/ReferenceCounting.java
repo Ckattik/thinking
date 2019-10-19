@@ -2,6 +2,11 @@ package thinkingJavaWeekend_08.referenceCounting;
 
 public class ReferenceCounting {
 
+	public void finalize() {
+		
+	}
+	
+	
 	public ReferenceCounting() {
 		// TODO Auto-generated constructor stub
 	}

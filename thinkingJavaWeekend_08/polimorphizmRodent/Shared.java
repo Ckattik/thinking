@@ -1,4 +1,4 @@
-package thinkingJavaWeekend_08.referenceCounting;
+package thinkingJavaWeekend_08.polimorphizmRodent;
 
 import myClass.Ckatt;
 
@@ -21,19 +21,13 @@ public class Shared {
 	}
 
 	
-	protected void dispose() {
-		if(--refCount == 0) {
-			finalize();
-			Ckatt.outConsole("Disposing " + this);
-		}
-	}
+	
 	
 	public String toString() {
 		return "Shared " + id;
 	}
 	
-	protected void finalize() {
-		Ckatt.outConsole("Shared finalize");
-	}
-	
+
+
+
 }
