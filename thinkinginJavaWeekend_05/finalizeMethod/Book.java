@@ -1,4 +1,4 @@
-package thinkinginJavaWeekend_05;
+package thinkinginJavaWeekend_05.finalizeMethod;
 
 public class Book {
 
@@ -19,7 +19,7 @@ public class Book {
 	public void finalize() {
 		if(checkedOut) {
 			System.out.println("Ошибка checkedOut !!");
-		//	Super.finalize();
+			//Super.finalize();
 		}
 	}
 	
