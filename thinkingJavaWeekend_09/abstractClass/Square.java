@@ -8,13 +8,17 @@ public class Square extends Figure {
 		// TODO Auto-generated constructor stub
 	}
 
-	public void newMethod() {
+
+	
+	
+	public  void newMethod() {
 		Ckatt.outConsole("Square.newMethod() ");
 	}
 	
-	public static void raise(Figure f) {
+	public void raise(Figure f) {
 		Ckatt.outConsole("Square.raise()");
 		((Square)f).newMethod();
+		
 		
 	}
 

@@ -11,7 +11,9 @@ public class TestFigure {
 
 		
 		
-		Square.raise(new Square());
+	//	Square.raise(new Square());   // низхож€щее преобразование
+		Figure f = null;
+		//f.raise();                 // абстрактный метод замен€ет низход€щее преобразование
 	}
 
 }
