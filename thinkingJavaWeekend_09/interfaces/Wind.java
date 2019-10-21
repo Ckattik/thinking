@@ -2,7 +2,7 @@ package thinkingJavaWeekend_09.interfaces;
 
 import myClass.Ckatt;
 
-public class Wind implements Instrument{
+public class Wind extends AbstractMethod implements Instrument,Playble{
 
 	public Wind() {
 		// TODO Auto-generated constructor stub

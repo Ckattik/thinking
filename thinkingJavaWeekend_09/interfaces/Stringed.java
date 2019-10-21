@@ -2,7 +2,7 @@ package thinkingJavaWeekend_09.interfaces;
 
 import myClass.Ckatt;
 
-public class Stringed implements Instrument{
+public class Stringed extends AbstractMethod implements Instrument, Playble{
 
 	public Stringed() {
 		// TODO Auto-generated constructor stub

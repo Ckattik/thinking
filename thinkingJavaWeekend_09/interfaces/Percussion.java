@@ -2,12 +2,15 @@ package thinkingJavaWeekend_09.interfaces;
 
 import myClass.Ckatt;
 
-public class Percussion implements Instrument{
+public class Percussion extends AbstractMethod implements Instrument, Playble{
 
 	public Percussion() {
 		// TODO Auto-generated constructor stub
 	}
 
+	
+	
+	
 	@Override
 	public void play(Note n) {
 		// TODO Auto-generated method stub

@@ -10,12 +10,12 @@ public class Music5 {
 	// поэтому типы, добавленые в систему будут работать правильно 
 	
 
-	public static void tune(Instrument i) {
+	public static void tune(Playble i) {
 		i.play(Note.MIDDLE_C);
 	}
 	
-	public static void tuneAll(Instrument [] e) {
-		for(Instrument i : e) {
+	public static void tuneAll(Playble [] e) {
+		for(Playble i : e) {
 			tune(i);
 		}
 	}
@@ -24,7 +24,7 @@ public class Music5 {
 		// TODO Auto-generated method stub
       //Восходящее преобразование при добавлении в масив :
 		
-		Instrument [] orchestra = {new Wind(), new Percussion(), new Stringed(), new Brass(), new Woodwind() };
+		Playble [] orchestra = { new Wind(),  new Percussion(),  new Stringed(), new Brass(), new Woodwind() };
 		
 		tuneAll(orchestra);
 	}
