@@ -21,6 +21,10 @@ public class Adventure {
     public static void w(ActionCharacter x) {
     	x.fight();
     }
+    
+    public static void z(CanClimb x) {
+    	x.climp();
+    }
 	
 	
 	public static void main(String[] args) {
@@ -31,7 +35,7 @@ public class Adventure {
 		u(h);
 		v(h);
 		w(h);
-		
+		z(h);
 		
 	}
 

@@ -1,6 +1,6 @@
 package thinkingJavaWekeend_09.multipleInterfaces;
 
-public class Hero extends ActionCharacter implements CanFight, CanSwim, CanFly{
+public class Hero extends ActionCharacter implements CanFight, CanSwim, CanFly, CanClimb{
 
 	public Hero() {
 		// TODO Auto-generated constructor stub
@@ -18,7 +18,11 @@ public class Hero extends ActionCharacter implements CanFight, CanSwim, CanFly{
 		
 	}
 	
-	
+	@Override
+	public void climp() {
+		// TODO Auto-generated method stub
+		
+	}
 
 	
 	
