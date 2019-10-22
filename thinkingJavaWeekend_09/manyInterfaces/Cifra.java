@@ -1,6 +1,6 @@
 package thinkingJavaWeekend_09.manyInterfaces;
 
-public class Cifra extends Integer implements Four{
+public class Cifra extends Five implements Four{
 
 	public Cifra() {
 		// TODO Auto-generated constructor stub
@@ -9,6 +9,18 @@ public class Cifra extends Integer implements Four{
 	
 	@Override
 	public void delete() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void sum() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	@Override
+	public void minus() {
 		// TODO Auto-generated method stub
 		
 	}

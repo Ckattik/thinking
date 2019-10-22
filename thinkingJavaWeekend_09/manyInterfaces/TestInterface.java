@@ -32,10 +32,10 @@ public class TestInterface {
 		// Number n = new Number(); // нельзя содать обьект у интерфейса 
 		
 		
-		// p(c); // не Cifra implements interfaces One, Two, Tree
+		p(c); // не Cifra implements interfaces One, Two, Tree
  		e(c);
 		//v(c);
-		//w(c)
+		//w(c);
 	}
 
 }
