@@ -22,9 +22,9 @@ public class FilterAdapter implements Processor{
 	}
 	
 	@Override
-	public Object sys(Object input) {
+	public String process(String input) {
 		// TODO Auto-generated method stub
-		return filter.sys((Waveform3)input);
+		return filter.process((String)input);
 	}
 	
 

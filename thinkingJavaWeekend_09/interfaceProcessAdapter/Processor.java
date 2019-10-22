@@ -4,7 +4,8 @@ public interface Processor {
 
 	public String name();
 	public Object process(Object input);
-	public Object sys(Object input);
+	public String process(String input);
+	
 	
 	
 }

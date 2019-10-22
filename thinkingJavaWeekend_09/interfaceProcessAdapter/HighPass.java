@@ -17,11 +17,7 @@ public class HighPass extends Filter {
 		return input;                                   // фиктивная обработка
 	}
 
-	@Override
-	public Waveform3 sys(Waveform3 input) {
-		// TODO Auto-generated method stub
-		return input;
-	}
+
 	
 	
 }

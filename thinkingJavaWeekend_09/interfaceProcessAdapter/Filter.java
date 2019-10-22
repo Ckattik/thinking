@@ -8,10 +8,14 @@ public class Filter {
 	
 	public Waveform2 process(Waveform2 input) {
 		return input;
+		
 	}
 	
-	public Waveform3 sys(Waveform3 input) {
+	
+	
+	public String process(String input) {
 		return input;
+		
 	}
 	
 	

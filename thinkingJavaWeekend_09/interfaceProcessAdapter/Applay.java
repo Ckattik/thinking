@@ -9,6 +9,10 @@ public class Applay {
 		
 	}
 	
+	
+	
+	
+	
 	public static void sys(Processor p, Object s) {
 		System.out.println("Используем Processor " + p.name());
 		System.out.println(p.process(s));
