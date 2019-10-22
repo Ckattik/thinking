@@ -15,6 +15,7 @@ public class FilterProcessor {
 		
 		Applay.process(new FilterAdapter(new LowPass(1.3)), w2 );
 		Applay.process(new FilterAdapter(new StringPass()), w2);
+		Applay.process(new FilterAdapter(new StringPass()), w2);
 		//Applay.sys(new FilterAdapter(new HighPass(1.2)), w3);
 		
 	}
